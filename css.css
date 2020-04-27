@@ -20,7 +20,7 @@ body
     justify-content: space-around;
     align-items: center;
     background-color:green;
-    position: fixed;
+   
     width: 100%;
     height: 50px;
     border-bottom: 1px solid darkolivegreen;
@@ -126,6 +126,26 @@ color: white;
 {
     margin-top: 1em;
     padding: 1em;
+}
+.interest
+{
+    display: flex;
+    flex-direction: column;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}
+.title1
+{
+
+    width: 100%;
+    background-color:olivedrab;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:gold;
 }
 @media screen and (min-width: 890px) and (max-width:1345px)
 {
