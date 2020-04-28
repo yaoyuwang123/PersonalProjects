@@ -11,23 +11,57 @@
         <nav class="topnav">
             <p>Yaoyu</p>
             <div class="navcontainer">
-            <a href="">Home</a>
-            <a href="https://github.com/yaoyuwang123">GitHub</a>
+                <a href="./Index.html">Home</a>
+                <a href="https://github.com/yaoyuwang123">GitHub</a>
+                <a href="Interests.html">Introduction</a>
+                <a href="Contact.html">Contact</a>
             </div>
 
         </nav>
-        
-        <div class="heroimage">
-            <p id="button">About Me</p>
-        </div>
-        <div class="introduce">
-            <p class="WhoIAm">Who I AM?</p>
-            <div class="IAmContainer">
-            <p class="IAm">My name is <strong>Yaoyu Wang</strong>. I am currently a first-year Computer science program student. I have passion on my UI and Programming course and I would like to be a programmer or web-designer!</p>
-            <p class="Yaoyu">I live in Canada since 2013 and I come from China.</p>
-            </div>
+        <div class="contactform">
+            <form action="action_page.php">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="You first name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <div class="emailorphone">
+                    <p>Please select your preferred contact method:</p>
+                    <div>
+                        <input type="radio" id="Choice1" name="contact" value="email">
+                        <label for="Choice1">Email</label>
+                        <input type="radio" id="Choice2" name="contact" value="phone">
+                        <label for="Choice2">Phone</label>
+                        <input type="text" id="choosen" name="contact" >
 
+
+                    </div>
+                </div>
+                <label for="Province">Province</label>
+                <select id="Province" name="Province">
+                    <option value="Alberta">Alberta</option>
+                    <option value="British">British</option>
+                    <option value="Columbia">Columbia</option>
+                    <option value="Manitoba">Manitoba</option>
+                    <option value="New Brunswick">New Brunswick</option>
+                    <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+                    <option value="NorthWest Territories">NorthWest Territories</option>
+                    <option value="Nova Scotia">Nova Scotia</option>
+                    <option value="Nunavut">Nunavut</option>
+                    <option value="Prince Edward Island">Prince Edward Island</option>
+                    <option value="Quebec">Quebec</option>
+                    <option value="Saskatchwan">Saskatchewan</option>
+                    <option value="Ontario">Ontario</option>
+                    <option value="Yukon">Yukon</option>
+                </select>
+                <label for="text">Message</label>
+                <textarea id="text" name="text" placeholder="Leave your message.." style="height: 200px"></textarea>
+                <input type="submit" value="Submit">
+                    
+                
+            </form>
         </div>
+        
+        
     
         
       

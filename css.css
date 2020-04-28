@@ -182,6 +182,64 @@ color: white;
     {
         text-align: center;
     }
+    .contactform
+    {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    form
+    {
+        
+        display: flex;
+        flex-direction: column;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        margin: 30px;
+        background-color: olive;
+        height: 650px;
+        border: 1px solid green;
+        border-radius: 10px;
+        color: gold;
+    }
+    form :nth-child(n)
+    {
+        padding-top: 5px;
+    }
+    input[type=text]
+    {
+        margin-top: 10px;
+        padding: 12px;
+        border:indianred 1px solid;
+        border-radius: 10px;
+        
+    }
+    input[type=submit]
+    {
+        margin-top: 10px;
+        color: green;
+        font-size: 20px;
+        padding: 20px;
+        width: 20%;
+        border: 2px solid indianred;
+        border-radius: 10px;
+        
+    }
+    select
+    {
+        border-radius: 10px;
+        border:1px solid indianred;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 5px;
+        color: gray;
+    }
+    textarea
+    {
+        border-radius: 10px;
+        border:1px solid indianred;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 
 
 @media screen and (min-width: 890px) and (max-width:1345px)
